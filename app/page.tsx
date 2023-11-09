@@ -62,11 +62,11 @@ export default function Home() {
 
         <div className="content mt-6">
           
-          <p>👋 Hey everyone, I'm Onur, a 4th-year student at Eskişehir Technical University. 
+          <p>👋 Hey everyone, I am Onur, a 4th-year student at Eskişehir Technical University. 
            I develop web services and full-stack projects using Java, Spring Framework and AngularJS technologies.</p>
-          <p>🌱 Currently, I'm learning C# and .NET technologies.</p> 
+          <p>🌱 Currently, I am learning C# and .NET technologies.</p> 
           <p>🔭 Additionally, I am involved in projects related to artificial intelligence and deep learning.</p> 
-          <p>👨‍💻 You can access most of the projects I've developed through my GitHub profile.</p>
+          <p>👨‍💻 You can access most of the projects I have developed through my GitHub profile.</p>
         
           
           <h3 className="pt-4 pb-2 text-xl font-bold leading-8 tracking-tight mt-5">
