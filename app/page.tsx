@@ -223,9 +223,7 @@ export default function Home() {
       <div className="mt-16 mt-16 flex flex-col items-center">
         
         <div className="mb-2 flex space-x-2 text-sm text-gray-500 dark:text-gray-400">
-          <div>{"© ${new Date().getFullYear()}"}</div>
-          <div>{"•"}</div>
-          <div>{"Onur Haktan"}</div>
+          <div>{"© Onur Haktan"}</div>
         </div>
         
       </div>

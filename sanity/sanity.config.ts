@@ -7,8 +7,8 @@ export default defineConfig({
   name: 'default',
   title: 'portfolio-nextjs',
 
-  projectId: 'z67vfiw2',
-  dataset: 'production',
+  projectId: '6p2onfig',
+  dataset: 'productio',
 
   plugins: [deskTool(), visionTool()],
 
