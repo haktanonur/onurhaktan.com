@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className= "max-w-3xl mx-auto">
       <div className="flex-1 pb-12 md:pb-16 lg:pb-20">
-        <div className="content mt-12 md:mt-12 lg:mt-16">
+        <div className="content mt-12 md:mt-16 lg:mt-24">
           <Image
             alt="Picture of Onur"
             src={Me}
