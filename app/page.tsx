@@ -48,7 +48,7 @@ export default function Home() {
               </svg>
             </a>
             
-            <a href={"/public/cv.pdf"} target="_blank" rel="noreferrer">
+            <a href={"/cv.pdf"} target="_blank" rel="noreferrer">
               <svg
               viewBox="0 0 24 24"
               fill="currentColor"
