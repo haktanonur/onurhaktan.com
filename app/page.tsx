@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className= "max-w-3xl mx-auto">
       <div className="flex-1 pb-12 md:pb-16 lg:pb-20">
-        <div className="content mt-12 md:mt-16 lg:mt-24">
+        <div className="content mt-12 md:mt-16 lg:mt-20">
           <Image
             alt="Picture of Onur"
             src={Me}
@@ -64,7 +64,9 @@ export default function Home() {
         <div className="content mt-6">
           
           <p>👋 Hey everyone, I am Onur, a 4th-year student at Eskişehir Technical University. 
-           I develop web services and full-stack projects using Java, Spring Framework and AngularJS technologies.</p>
+           I develop web services and full-stack projects using Java, Spring Framework and AngularJS technologies.
+           I am approaching every task with responsibility and a growth mindset.
+           I am striving to improve my knowledge by developing, staying up-to-date, and learning new things day by day.</p>
           <p>🌱 Currently, I am learning C# and .NET technologies.</p> 
           <p>🔭 Additionally, I am involved in projects related to artificial intelligence and deep learning.</p> 
           <p>👨‍💻 You can access most of the projects I have developed through my GitHub profile.</p>
