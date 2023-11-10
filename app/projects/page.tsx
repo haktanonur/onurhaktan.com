@@ -37,7 +37,7 @@ export default async function Projects() {
         </h1>
       </div>
 
-      <div className="grid gap-y-8 sm:gap-6 sm:grid-cols-2 md:gap-6 lg:grid-cols-2 lg:gap-10 pt-8">
+      <div className="justify-center grid gap-y-8 sm:gap-6 sm:grid-cols-2 md:gap-6 lg:grid-cols-2 lg:gap-10">
         {data.map((project) => (
           <article
             key={project._id}
