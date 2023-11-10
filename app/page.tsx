@@ -70,7 +70,7 @@ export default function Home() {
           <p>👨‍💻 You can access most of the projects I have developed through my GitHub profile.</p>
         
           
-          <h3 className="pt-4 pb-2 text-xl font-bold leading-8 tracking-tight mt-5">
+          <h3 className="pt-4 pb-2 text-xl font-bold leading-8 tracking-tight mt-16">
           Skills & Technologies
           </h3>
           <div>
