@@ -69,7 +69,7 @@ export default async function Projects() {
                 target="_blank"
                 className="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-amber-500"
               >
-                Learn more
+                See
                 <span className="block transition-all group-hover:ms-0.5">
                   &rarr;
                 </span>

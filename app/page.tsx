@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className= "max-w-3xl mx-auto">
       <div className="flex-1 pb-12 md:pb-16 lg:pb-20">
-        <div className="content mt-12 md:mt-16 lg:mt-20">
+        <div className="content mt-8 md:mt-12 lg:mt-16">
           <Image
             alt="Picture of Onur"
             src={Me}
@@ -16,7 +16,7 @@ export default function Home() {
             Onur Haktan
           </h3>
           <p className="text-gray-500 dark:text-gray-300">
-            Junior Software Developer
+            Junior Software Engineer
           </p>
 
           <div className="flex space-x-5 pt-6">
@@ -50,11 +50,12 @@ export default function Home() {
             
             <a href={"/cv.pdf"} target="_blank" rel="noreferrer">
               <svg
-              viewBox="0 0 24 24"
-              fill="currentColor"
-              className="w-8 h-8 text-amber-400 hover:text-amber-500"
-            >
-              <path d="M19 9h-4V3H9v6H5l7 8zM4 19h16v2H4z" />
+                viewBox="0 0 512 512"
+                fill="currentColor"
+                className="w-8 h-8 text-amber-400 hover:text-amber-500"
+              >
+                <path d="M460 240H320a48 48 0 01-48-48V52a4 4 0 00-4-4h-53.25a65.42 65.42 0 00-6.5-9.81C196.72 23.88 179.59 16 160 16c-37.68 0-64 29.61-64 72v144c0 25 20.34 40 40 40a39.57 39.57 0 0040-40V80a16 16 0 00-32 0v152a7.75 7.75 0 01-8 8c-2.23 0-8-1.44-8-8V88c0-19.34 8.41-40 32-40 29.69 0 32 30.15 32 39.38v138.75c0 17.45-5.47 33.23-15.41 44.46C166.5 282 152.47 288 136 288s-30.5-6-40.59-17.41C85.47 259.36 80 243.58 80 226.13V144a16 16 0 00-32 0v82.13c0 51.51 33.19 89.63 80 93.53V432a64 64 0 0064 64h208a64 64 0 0064-64V244a4 4 0 00-4-4z" />
+                <path d="M320 208h129.81a2 2 0 001.41-3.41L307.41 60.78a2 2 0 00-3.41 1.41V192a16 16 0 0016 16z" />
               </svg>
             </a>
           </div>
@@ -63,13 +64,14 @@ export default function Home() {
 
         <div className="content mt-6">
           
-          <p>👋 Hey everyone, I am Onur, a 4th-year student at Eskişehir Technical University. 
+          <p className="mb-3">👋 Hey everyone, I am Onur, a 4th-year student at Eskişehir Technical University. 
            I develop web services and full-stack projects using Java, Spring Framework and AngularJS technologies.
            I am approaching every task with responsibility and a growth mindset.
            I am striving to improve my knowledge by developing, staying up-to-date, and learning new things day by day.</p>
-          <p>🌱 Currently, I am learning C# and .NET technologies.</p> 
-          <p>🔭 Additionally, I am involved in projects related to artificial intelligence and deep learning.</p> 
-          <p>👨‍💻 You can access most of the projects I have developed through my GitHub profile.</p>
+          <p className="mb-3">🌱 Currently, I am learning C# and .NET technologies.</p> 
+          <p className="mb-3">🔭 Additionally, I am involved in projects related to artificial intelligence and deep learning.</p> 
+          <p className="mb-3">👨‍💻 You can access most of the projects I have developed through my <a href="https://github.com/haktanonur" target="_blank" >
+          <u>GitHub profile</u></a>.</p>
         
           
           <h3 className="pt-4 pb-2 text-xl font-bold leading-8 tracking-tight mt-8">
