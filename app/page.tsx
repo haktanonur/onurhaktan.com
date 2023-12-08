@@ -70,8 +70,7 @@ export default function Home() {
            I am striving to improve my knowledge by developing, staying up-to-date, and learning new things day by day.</p>
           <p className="mb-3">🌱 Currently, I am learning C# and .NET technologies.</p> 
           <p className="mb-3">🔭 Additionally, I am involved in projects related to artificial intelligence and deep learning.</p> 
-          <p className="mb-3">👨‍💻 You can access most of the projects I have developed through my <a href="https://github.com/haktanonur" target="_blank" >
-          <u>GitHub profile</u></a>.</p>
+          <p className="mb-3">👨‍💻 You can access most of the projects I have developed through my GitHub profile.</p>
         
           
           <h3 className="pt-4 pb-2 text-xl font-bold leading-8 tracking-tight mt-8">
