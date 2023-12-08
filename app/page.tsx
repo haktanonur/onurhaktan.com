@@ -65,7 +65,7 @@ export default function Home() {
         <div className="content mt-6">
           
           <p className="mb-3">👋 Hey everyone, I am Onur, a 4th-year student at Eskişehir Technical University. 
-           I develop web services and full-stack projects using Java, Spring Framework and AngularJS technologies.
+           I develop web services, desktop applications and full-stack projects using Java, Spring Framework and AngularJS technologies.
            I am approaching every task with responsibility and a growth mindset.
            I am striving to improve my knowledge by developing, staying up-to-date, and learning new things day by day.</p>
           <p className="mb-3">🌱 Currently, I am learning C# and .NET technologies.</p> 
