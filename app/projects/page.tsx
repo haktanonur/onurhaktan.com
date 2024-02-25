@@ -44,14 +44,14 @@ export default async function Projects() {
             className="overflow-hidden dark:border-zinc-600 rounded-lg border border-gray-100 dark:bg-#222222"
             style={{ maxWidth: "330px" }}
           >
-            <div className="h-56 w-full relative">
+            {/* <div className="h-56 w-full relative">
               <Image
                 fill
                 src={project.imageUrl}
                 alt="Image of the project"
                 className="w-full h-full object-cover"
               />
-            </div>
+            </div> */}
 
             <div className="p-4 sm:p-6">
               <a href={project.link} target="_blank">
@@ -60,7 +60,7 @@ export default async function Projects() {
                 </h3>
               </a>
 
-              <p className=" line-clamp-3 mt-2 text-sm leading-relaxed text-gray-500 dark:text-gray-400">
+              <p className=" line-clamp-3 mt-2 text-m leading-relaxed text-gray-500 dark:text-gray-400">
                 {project.overview}
               </p>
 
@@ -69,7 +69,7 @@ export default async function Projects() {
                 target="_blank"
                 className="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-amber-500"
               >
-                See
+                See Project
                 <span className="block transition-all group-hover:ms-0.5">
                   &rarr;
                 </span>
