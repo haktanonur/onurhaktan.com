@@ -16,7 +16,7 @@ export default function Home() {
             Onur Haktan
           </h3>
           <p className="text-gray-500 dark:text-gray-300">
-            Junior Java Software Engineer
+            Junior Software Engineer
           </p>
 
           <div className="flex space-x-5 pt-6">
@@ -65,7 +65,7 @@ export default function Home() {
         <div className="content mt-6">
           
           <p className="mb-3">👋 Hey everyone, I am Onur a 4th-year student at Eskişehir Technical University.</p>
-          <p className="mb-3">⌨️ I develop web services and full stack projects using <b>Java, Spring Framework and React JS</b> technologies.</p>
+          <p className="mb-3">⌨️ I develop web services and full stack projects using <b>Java, Spring Framework and ReactJS.</b></p>
           <p className="mb-3">🔭 Additionally, I am involved in projects related to artificial intelligence and deep learning.</p>
           <p className="mb-3">🧠 I am approaching every task with responsibility and a growth mindset. I am striving to improve my knowledge by developing, staying up-to-date, and learning new things day by day. </p>
           <p className="mb-3">⚡ Fast learner and eager to explore new technologies. Always wanting to improve. Able and willing to think outside the box.</p>  
