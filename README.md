@@ -1,4 +1,4 @@
-# [onurhaktan.vercel.app](https://onurhaktan.vercel.app/)
+# [onurhaktan.com](https://onurhaktan.com)
 
 🤹 My personal website and portfolio.
 
