@@ -78,7 +78,7 @@ export default async function Projects() {
           </article>
         ))}
       </div>
-      <p className="mt-6 text-center text-white">Check out more projects on my GitHub</p>
+      <p className="mt-6 text-sm text-center text-white">Check out more projects on my GitHub</p>
       <div className="flex items-center justify-center mt-2">
         <a href="https://github.com/haktanonur" target="_blank">
               <svg

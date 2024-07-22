@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className= "max-w-3xl mx-auto">
       <div className="flex-1 pb-4 md:pb-6 lg:pb-6">
-        <div className="content  md:mt-2 lg:mt-4">
+        <div className="content md:mt-2 lg:mt-4 flex flex-col items-center">
             <Image
               alt="Picture of Onur"
               src={Me}
@@ -68,7 +68,7 @@ export default function Home() {
           <p className="mb-3">👨‍💻 I am working as a Software Engineer at <a href="https://www.ykteknoloji.com.tr/" target="_blank"><b>Yapi Kredi Technology</b></a> via <a href="https://www.metasis.com.tr/" target="_blank"><b>Metasis Technology</b></a>.</p>
           <p className="mb-3">🧠 I am approaching every task with responsibility and a growth mindset. I am striving to improve my knowledge by developing, staying up-to-date, and learning new things day by day. </p>
           <p className="mb-3">⚡ Fast learner and eager to explore new technologies. Always wanting to improve. Able and willing to think outside the box.</p>  
-          <p className="mb-3">📫 You can access most of the projects I have developed through my <a href="https://github.com/haktanonur" target="_blank"><u>GitHub profile.</u></a></p>
+          {/* <p className="mb-3">📫 You can access most of the projects I have developed through my <a href="https://github.com/haktanonur" target="_blank"><u>GitHub profile.</u></a></p>*/}
         
         </div>
       </div>
