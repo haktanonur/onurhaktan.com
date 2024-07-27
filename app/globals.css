@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* globals.css */
+@import '@fontsource/ibm-plex-sans';
+
+:root {
+  --font-ibm-plex-sans: 'IBM Plex Sans', sans-serif;
+}
+
+body {
+  font-family: var(--font-ibm-plex-sans);
+}

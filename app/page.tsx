@@ -10,7 +10,7 @@ export default function Home() {
             <Image
               alt="Picture of Onur"
               src={Me}
-              className="h-48 w-48 rounded-full object-cover object-top"
+              className="h-44 w-44 rounded-full object-cover object-top"
             />
           <h3 className="pt-4 pb-2 text-2xl font-bold leading-8 tracking-tight">
             Onur Haktan
