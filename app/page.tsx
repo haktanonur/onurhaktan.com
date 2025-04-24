@@ -60,8 +60,8 @@ export default function Home() {
 
         <div className="content mt-6">
           <p className="mb-3">
-            I'm Onur Haktan, a software engineer specialized in backend and full-stack development. 
-            Currently, I'm working at {" "}
+            I&apos;m Onur Haktan, a software engineer specialized in backend and full-stack development. 
+            Currently, I&apos;m working at {" "}
             <a href="https://www.ykteknoloji.com.tr/" target="_blank">
               <b>Yapi Kredi Technology</b>
             </a>
