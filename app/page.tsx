@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Me from "@/public/me.jpeg";
 import Projects from "./projects/page";
+import { FaMedium } from "react-icons/fa";
 
 export default function Home() {
   return (
@@ -47,30 +48,29 @@ export default function Home() {
                 <path d="M928 160H96c-17.7 0-32 14.3-32 32v640c0 17.7 14.3 32 32 32h832c17.7 0 32-14.3 32-32V192c0-17.7-14.3-32-32-32zm-80.8 108.9L531.7 514.4c-7.8 6.1-18.7 6.1-26.5 0L189.6 268.9A7.2 7.2 0 01194 256h648.8a7.2 7.2 0 014.4 12.9z" />
               </svg>
             </a>
-            
-            {/* <a href={"/OnurHaktanCV.pdf"} target="_blank" rel="noreferrer">
-              <svg
-                viewBox="0 0 512 512"
-                fill="currentColor"
-                className="w-8 h-8 text-amber-400 hover:text-amber-500"
-              >
-                <path d="M460 240H320a48 48 0 01-48-48V52a4 4 0 00-4-4h-53.25a65.42 65.42 0 00-6.5-9.81C196.72 23.88 179.59 16 160 16c-37.68 0-64 29.61-64 72v144c0 25 20.34 40 40 40a39.57 39.57 0 0040-40V80a16 16 0 00-32 0v152a7.75 7.75 0 01-8 8c-2.23 0-8-1.44-8-8V88c0-19.34 8.41-40 32-40 29.69 0 32 30.15 32 39.38v138.75c0 17.45-5.47 33.23-15.41 44.46C166.5 282 152.47 288 136 288s-30.5-6-40.59-17.41C85.47 259.36 80 243.58 80 226.13V144a16 16 0 00-32 0v82.13c0 51.51 33.19 89.63 80 93.53V432a64 64 0 0064 64h208a64 64 0 0064-64V244a4 4 0 00-4-4z" />
-                <path d="M320 208h129.81a2 2 0 001.41-3.41L307.41 60.78a2 2 0 00-3.41 1.41V192a16 16 0 0016 16z" />
-              </svg>
-            </a> */}
+
+            <a href="https://medium.com/@onurhaktan" target="_blank">
+              <FaMedium className="w-8 h-8 text-amber-400 hover:text-amber-500" />
+            </a>
+    
           </div>
+      
 
         </div>
 
         <div className="content mt-6">
-          
-          <p className="mb-3">👋 Hey everyone, I am Onur, a recent graduate from Eskişehir Technical University.</p>
-          <p className="mb-3">👨‍💻 I am working as a Software Engineer at <a href="https://www.ykteknoloji.com.tr/" target="_blank"><b>Yapi Kredi Technology</b></a>.</p>
-          <p className="mb-3">🧠 I am approaching every task with responsibility and a growth mindset. I am striving to improve my knowledge by developing, staying up-to-date, and learning new things day by day. </p>
-          <p className="mb-3">⚡ Fast learner and eager to explore new technologies. Always wanting to improve. Able and willing to think outside the box.</p>  
-          {/* <p className="mb-3">📫 You can access most of the projects I have developed through my <a href="https://github.com/haktanonur" target="_blank"><u>GitHub profile.</u></a></p>*/}
-        
+          <p className="mb-3">
+            I'm Onur Haktan, a software engineer specialized in backend and full-stack development. 
+            Currently, I'm working at {" "}
+            <a href="https://www.ykteknoloji.com.tr/" target="_blank">
+              <b>Yapi Kredi Technology</b>
+            </a>
+            , where I contribute to large-scale projects in the finance and capital markets domain. 
+            I approach every task with responsibility, a strong sense of ownership, and a continuous improvement mindset. 
+            I care deeply about writing clean, maintainable code, designing scalable systems, and delivering high-quality software within Agile teams.
+          </p>
         </div>
+        
       </div>
           <div className="mb-3">
             <h3 className="pb-2 text-2xl font-bold leading-8 tracking-tight">
