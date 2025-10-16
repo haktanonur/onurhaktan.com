@@ -63,9 +63,9 @@ export default function Home() {
             I&apos;m Onur Haktan, a software engineer specialized in backend and full-stack development. 
             Currently, I&apos;m working at {" "}
             <a href="https://www.garantibbvateknoloji.com.tr/" target="_blank">
-              <b>Garanti BBVA Teknoloji</b>
+              <b>Garanti BBVA Teknoloji </b>
             </a>
-            , where I contribute to large-scale projects in the finance and banking domains. 
+            via Linktera, where I contribute to large-scale projects in the finance and banking domains. 
             I approach every task with responsibility, a strong sense of ownership, and a continuous improvement mindset. 
             I care deeply about writing clean, maintainable code, designing scalable systems, and delivering high-quality software within Agile teams.
           </p>
