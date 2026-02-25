@@ -1,19 +1,24 @@
 import type { Metadata } from 'next'
-{/*import { Inter } from 'next/font/google'*/}
 import './globals.css'
 import { Provider } from './components/Provider'
 import Navbar from './components/Navbar'
 import { Analytics } from '@vercel/analytics/react'
 import { SpeedInsights } from "@vercel/speed-insights/next"
 
-{/*const inter = Inter({
-  subsets: ["latin"],
-  variable: "--font-inter"
-})*/}
-
 export const metadata: Metadata = {
-  title: 'Onur Haktan',
-  description: 'This is my portfolio',
+  metadataBase: new URL('https://onurhaktan.com'),
+  title: {
+    default: 'Onur Haktan',
+    template: '%s | Onur Haktan',
+  },
+  description: 'Software Engineer portfolio - backend and full-stack development',
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+  },
+  twitter: {
+    card: 'summary',
+  },
 }
 
 export default function RootLayout({
@@ -36,18 +41,6 @@ export default function RootLayout({
         </Provider>
         
        </body>
-       {/*<body className={`${inter.className} bg-white text-black dark:bg-[#0F0A0A] dark:text-white h-full 
-       selection:bg-gray-50 dark:selection:bg-gray-800`}
-       >
-        <Provider>
-          <Navbar/>
-          <main className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-            {children}
-            <Analytics />
-          </main>
-        </Provider>
-        
-       </body>*/}
     </html>
   )
 }

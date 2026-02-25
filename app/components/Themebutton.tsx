@@ -17,8 +17,10 @@ export default function Themebutton() {
 
   return (
     <button
+      type="button"
       onClick={() => setTheme(resolvedTheme === "dark" ? "light" : "dark")}
       className="bg-amber-300/30 p-2 rounded-lg text-amber-500"
+      aria-label={`Switch to ${resolvedTheme === "dark" ? "light" : "dark"} mode`}
     >
       {resolvedTheme === "dark" ? (
         <svg
