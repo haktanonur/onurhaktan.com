@@ -4,7 +4,7 @@ import { SITE_OWNER, SITE_TITLE, SOCIAL_LINKS } from "@/app/lib/constants";
 
 export default function HeroSection() {
     return (
-        <section className="pt-16 pb-12 animate-fade-in">
+        <section className="pt-16 pb-8 animate-fade-in">
             <div className="flex flex-col items-center text-center">
                 <div className="relative">
                     <Image
@@ -41,16 +41,7 @@ export default function HeroSection() {
             <div className="mt-10 max-w-xl mx-auto">
                 <p className="text-[15px] leading-relaxed text-stone-600 dark:text-stone-400">
                     I&apos;m Onur Haktan, a software engineer specialized in backend and
-                    full-stack development. Currently, I&apos;m working at{" "}
-                    <a
-                        href="https://www.garantibbvateknoloji.com.tr/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="font-medium text-stone-900 dark:text-stone-200 hover:text-amber-600 dark:hover:text-amber-400 transition-colors underline decoration-stone-300 dark:decoration-stone-600 underline-offset-2"
-                    >
-                        Garanti BBVA Teknoloji
-                    </a>{" "}
-                    via Linktera, where I contribute to large-scale projects in the
+                    full-stack development. Currently, I contribute to large-scale projects in the
                     finance and banking domains. I approach every task with
                     responsibility, a strong sense of ownership, and a continuous
                     improvement mindset.

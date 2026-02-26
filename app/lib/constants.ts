@@ -31,16 +31,25 @@ export const SOCIAL_LINKS: SocialLink[] = [
 export const TECH_SKILLS: TechSkill[] = [
     { name: "Java", color: "#ED8B00" },
     { name: "Spring Boot", color: "#6DB33F" },
-    { name: "Hibernate", color: "#59666C" },
-    { name: "Docker", color: "#2496ED" },
     { name: "React", color: "#61DAFB" },
-    { name: "JavaScript", color: "#F7DF1E" },
-    { name: "C#", color: "#239120" },
-    { name: ".NET", color: "#512BD4" },
-    { name: "Redis", color: "#DC382D" },
-    { name: "RabbitMQ", color: "#FF6600" },
     { name: "Apache Kafka", color: "#231F20" },
+    { name: "RabbitMQ", color: "#FF6600" },
+    { name: "Redis", color: "#DC382D" },
+    { name: "Docker", color: "#2496ED" },
     { name: "Git", color: "#F05033" },
+];
+
+export const METHODOLOGIES: string[] = [
+    "Microservices",
+    "REST APIs",
+    "OOP",
+    "SOLID",
+    "Design Patterns",
+    "DDD",
+    "TDD",
+    "Agile/Scrum",
+    "Clean Architecture",
+    "Hexagonal Architecture",
 ];
 
 export const GITHUB_URL = "https://github.com/haktanonur";

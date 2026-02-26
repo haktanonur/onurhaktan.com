@@ -21,7 +21,7 @@ export default async function Projects() {
   const data = await getProjects();
 
   return (
-    <section className="py-10">
+    <section className="py-8">
       <h2 className="text-sm font-semibold uppercase tracking-widest text-stone-400 dark:text-stone-500 mb-6">
         Projects
       </h2>

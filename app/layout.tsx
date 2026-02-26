@@ -32,7 +32,7 @@ export default function RootLayout({
       <body className="bg-stone-50 text-stone-800 dark:bg-stone-950 dark:text-stone-200 min-h-screen transition-colors duration-300">
         <ThemeProviderWrapper>
           <Navbar />
-          <main className="max-w-2xl mx-auto px-6 pb-16">
+          <main className="max-w-3xl mx-auto px-6 pb-16">
             {children}
             <Analytics />
             <SpeedInsights />
