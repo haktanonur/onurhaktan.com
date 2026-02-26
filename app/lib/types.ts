@@ -12,7 +12,7 @@ export interface SocialLink {
     icon: React.ComponentType<{ className?: string }>;
 }
 
-export interface TechBadge {
-    alt: string;
-    src: string;
+export interface TechSkill {
+    name: string;
+    color: string;
 }

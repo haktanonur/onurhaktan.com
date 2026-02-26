@@ -4,21 +4,25 @@ import { SITE_OWNER, SITE_TITLE, SOCIAL_LINKS } from "@/app/lib/constants";
 
 export default function HeroSection() {
     return (
-        <div className="flex-1 pb-4 md:pb-6 lg:pb-6">
-            <div className="content md:mt-2 lg:mt-4 flex flex-col items-center">
-                <Image
-                    alt={`Picture of ${SITE_OWNER}`}
-                    src={Me}
-                    className="h-44 w-44 rounded-full object-cover object-top"
-                    priority
-                />
+        <section className="pt-16 pb-12 animate-fade-in">
+            <div className="flex flex-col items-center text-center">
+                <div className="relative">
+                    <Image
+                        alt={`Picture of ${SITE_OWNER}`}
+                        src={Me}
+                        className="h-28 w-28 rounded-full object-cover object-top ring-2 ring-stone-200 dark:ring-stone-700"
+                        priority
+                    />
+                </div>
 
-                <h3 className="pt-4 pb-2 text-2xl font-bold leading-8 tracking-tight">
+                <h1 className="mt-5 text-2xl font-semibold tracking-tight text-stone-900 dark:text-stone-50">
                     {SITE_OWNER}
-                </h3>
-                <p className="text-gray-500 dark:text-gray-300">{SITE_TITLE}</p>
+                </h1>
+                <p className="mt-1 text-sm text-stone-500 dark:text-stone-400">
+                    {SITE_TITLE}
+                </p>
 
-                <div className="flex space-x-5 pt-6">
+                <div className="flex items-center gap-4 mt-5">
                     {SOCIAL_LINKS.map(({ href, label, icon: Icon }) => (
                         <a
                             key={label}
@@ -26,32 +30,32 @@ export default function HeroSection() {
                             target="_blank"
                             rel="noopener noreferrer"
                             aria-label={label}
+                            className="text-stone-400 hover:text-amber-600 dark:text-stone-500 dark:hover:text-amber-400 transition-colors duration-200"
                         >
-                            <Icon className="w-8 h-8 text-amber-400 hover:text-amber-500" />
+                            <Icon className="w-5 h-5" />
                         </a>
                     ))}
                 </div>
             </div>
 
-            <div className="content mt-6">
-                <p className="mb-3">
+            <div className="mt-10 max-w-xl mx-auto">
+                <p className="text-[15px] leading-relaxed text-stone-600 dark:text-stone-400">
                     I&apos;m Onur Haktan, a software engineer specialized in backend and
                     full-stack development. Currently, I&apos;m working at{" "}
                     <a
                         href="https://www.garantibbvateknoloji.com.tr/"
                         target="_blank"
                         rel="noopener noreferrer"
+                        className="font-medium text-stone-900 dark:text-stone-200 hover:text-amber-600 dark:hover:text-amber-400 transition-colors underline decoration-stone-300 dark:decoration-stone-600 underline-offset-2"
                     >
-                        <b>Garanti BBVA Teknoloji </b>
-                    </a>
+                        Garanti BBVA Teknoloji
+                    </a>{" "}
                     via Linktera, where I contribute to large-scale projects in the
                     finance and banking domains. I approach every task with
                     responsibility, a strong sense of ownership, and a continuous
-                    improvement mindset. I care deeply about writing clean, maintainable
-                    code, designing scalable systems, and delivering high-quality
-                    software within Agile teams.
+                    improvement mindset.
                 </p>
             </div>
-        </div>
+        </section>
     );
 }

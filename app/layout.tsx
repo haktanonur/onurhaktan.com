@@ -29,12 +29,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body
-        className="bg-white text-black dark:bg-[#0F0A0A] dark:text-white h-full selection:bg-gray-50 dark:selection:bg-gray-800"
-      >
+      <body className="bg-stone-50 text-stone-800 dark:bg-stone-950 dark:text-stone-200 min-h-screen transition-colors duration-300">
         <ThemeProviderWrapper>
           <Navbar />
-          <main className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <main className="max-w-2xl mx-auto px-6 pb-16">
             {children}
             <Analytics />
             <SpeedInsights />
