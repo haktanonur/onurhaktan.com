@@ -35,8 +35,7 @@ export const TECH_SKILLS: TechSkill[] = [
     { name: "Apache Kafka", color: "#231F20" },
     { name: "RabbitMQ", color: "#FF6600" },
     { name: "Redis", color: "#DC382D" },
-    { name: "Docker", color: "#2496ED" },
-    { name: "Git", color: "#F05033" },
+    { name: "Docker", color: "#2496ED" }
 ];
 
 export const METHODOLOGIES: string[] = [
@@ -47,9 +46,7 @@ export const METHODOLOGIES: string[] = [
     "Design Patterns",
     "DDD",
     "TDD",
-    "Agile/Scrum",
-    "Clean Architecture",
-    "Hexagonal Architecture",
+    "Agile/Scrum"
 ];
 
 export const GITHUB_URL = "https://github.com/haktanonur";
