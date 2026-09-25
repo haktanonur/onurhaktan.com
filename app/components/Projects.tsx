@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { client } from "@/app/lib/sanity";
 import { GithubIcon } from "@/app/components/icons";
 import { GITHUB_URL } from "@/app/lib/constants";
@@ -22,7 +23,7 @@ export default async function Projects() {
   const data = await getProjects();
 
   return (
-    <section className="py-8">
+    <section id="projects" className="pt-8 pb-8 border-t border-stone-200 dark:border-stone-800">
       <h2 className="text-sm font-semibold uppercase tracking-widest text-stone-400 dark:text-stone-500 mb-6">
         Projects
       </h2>
@@ -32,11 +33,20 @@ export default async function Projects() {
           const content = (
             <>
               <div className="flex items-start justify-between gap-4">
+                {project.imageUrl && (
+                  <Image
+                    src={project.imageUrl}
+                    alt=""
+                    width={48}
+                    height={48}
+                    className="w-12 h-12 rounded-lg object-cover flex-shrink-0 border border-stone-200 dark:border-stone-800"
+                  />
+                )}
                 <div className="flex-1 min-w-0">
                   <h3 className="text-[15px] font-medium text-stone-900 dark:text-stone-100 group-hover:text-amber-600 dark:group-hover:text-amber-400 transition-colors">
                     {project.title}
                   </h3>
-                  <p className="mt-1.5 text-sm leading-relaxed text-stone-500 dark:text-stone-400 line-clamp-2">
+                  <p className="mt-1.5 text-sm leading-relaxed text-stone-500 dark:text-stone-400 line-clamp-3">
                     {project.overview}
                   </p>
                 </div>

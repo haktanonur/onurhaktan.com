@@ -18,6 +18,14 @@ body {
   background-color: rgba(217, 119, 6, 0.15);
 }
 
+/* Visible keyboard focus state for interactive elements */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid #d97706;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
 /* Subtle scrollbar */
 ::-webkit-scrollbar {
   width: 6px;

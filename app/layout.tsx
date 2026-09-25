@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { ThemeProviderWrapper } from "./components/ThemeProviderWrapper";
 import Navbar from "./components/Navbar";
+import BackToTop from "./components/BackToTop";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { SITE_OWNER, SITE_TITLE, SOCIAL_LINKS } from "@/app/lib/constants";
@@ -54,6 +55,7 @@ export default function RootLayout({
             <Analytics />
             <SpeedInsights />
           </main>
+          <BackToTop />
         </ThemeProviderWrapper>
       </body>
     </html>

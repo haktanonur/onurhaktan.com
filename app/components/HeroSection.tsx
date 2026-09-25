@@ -40,12 +40,12 @@ export default function HeroSection() {
 
             <div className="mt-10 max-w-xl mx-auto">
                 <p className="text-[15px] leading-relaxed text-stone-600 dark:text-stone-400">
-                    I&apos;m Onur Haktan, a software engineer with 2+ years of experience
-                    modernizing business-critical banking systems &mdash; migrating legacy
-                    platforms to Java/Spring Boot microservices for capital markets and
-                    individual pension systems. I work with event-driven architecture
-                    (Kafka, RabbitMQ), gRPC, and React to deliver transaction-critical
-                    workflows in regulated financial environments.
+                    Software engineer with 2+ years of experience modernizing
+                    business-critical banking systems &mdash; migrating legacy platforms
+                    to Java/Spring Boot microservices for capital markets and individual
+                    pension systems. Currently building transaction-critical workflows at
+                    Garanti BBVA Technology using event-driven architecture (Kafka,
+                    RabbitMQ), gRPC, and React in regulated financial environments.
                 </p>
             </div>
 

@@ -2,7 +2,7 @@ import { TECH_SKILLS, METHODOLOGIES } from "@/app/lib/constants";
 
 export default function TechBadges() {
     return (
-        <section className="py-8 animate-fade-in" style={{ animationDelay: "0.15s" }}>
+        <section id="skills" className="pt-8 pb-8 border-t border-stone-200 dark:border-stone-800 animate-fade-in" style={{ animationDelay: "0.15s" }}>
             <h2 className="text-sm font-semibold uppercase tracking-widest text-stone-400 dark:text-stone-500 mb-4">
                 Technologies
             </h2>

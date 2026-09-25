@@ -2,7 +2,7 @@ import { EXPERIENCE } from "@/app/lib/constants";
 
 export default function Experience() {
     return (
-        <section className="py-8 animate-fade-in" style={{ animationDelay: "0.1s" }}>
+        <section id="experience" className="pt-8 pb-8 border-t border-stone-200 dark:border-stone-800 animate-fade-in" style={{ animationDelay: "0.1s" }}>
             <h2 className="text-sm font-semibold uppercase tracking-widest text-stone-400 dark:text-stone-500 mb-6">
                 Experience
             </h2>
