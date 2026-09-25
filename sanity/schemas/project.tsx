@@ -23,5 +23,12 @@ export default {
       type: 'string',
       title: 'Link',
     },
+    {
+      name: 'tags',
+      type: 'array',
+      title: 'Tags',
+      of: [{ type: 'string' }],
+      options: { layout: 'tags' },
+    },
   ],
 }

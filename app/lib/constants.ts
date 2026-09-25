@@ -60,9 +60,11 @@ export const EXPERIENCE: Experience[] = [
         period: "Oct 2025 – Present",
         location: "Remote",
         bullets: [
-            "Migrating legacy CoolGen applications to Java/Spring Boot microservices for Individual Pension Systems, using Kafka, gRPC, React, and Oracle.",
-            "Build React-based interfaces and backend workflows for pension exit operations, including automated notifications and document generation.",
-            "Participate in system design, data modeling, and database schema design using PowerDesigner.",
+            "Contribute to the modernization of Individual Pension Systems, migrating legacy CoolGen-based applications to microservices using Java, Spring Boot, Kafka, gRPC, React, and Oracle.",
+            "Develop modern React-based interfaces to replace legacy screens, including workflows for individual pension exit operations.",
+            "Applied AI-assisted development with a focus on model selection, context management, and token efficiency, using capable models for complex tasks and lightweight models for simpler tasks.",
+            "Implement backend processes for pension exit workflows, including automated email, SMS, and document delivery following transaction completion.",
+            "Participate in high-level and low-level system design, including service design, data modeling, and database schema design using PowerDesigner.",
         ],
     },
     {
@@ -72,9 +74,11 @@ export const EXPERIENCE: Experience[] = [
         period: "Jun 2024 – Oct 2025",
         location: "Remote",
         bullets: [
-            "Engineered the migration of capital markets and investment systems to microservices using Java, Spring Boot, Kafka, RabbitMQ, Redis, React, and Oracle.",
-            "Delivered core workflows for the IPO platform's microservices transformation — allocation, payment processing, batch jobs, and integrations with core banking systems.",
-            "Built a corporate actions notification workflow for international equities and maintained 80%+ backend test coverage.",
+            "Engineered the migration of capital markets and investment systems from legacy applications to microservices using Java, Spring Boot, Kafka, RabbitMQ, Redis, React, and Oracle.",
+            "Delivered core workflows for the microservices transformation of the IPO platform, covering IPO management, allocation, and payment processing, including batch jobs, file generation and transfers, notifications, and integrations with core banking and provisioning systems.",
+            "Built a corporate actions notification workflow for international equities, processing brokerage documents, matching events with customer portfolios, and delivering personalized email and SMS notifications for events such as dividend payments.",
+            "Integrated document-based capital markets operations with the bank's workflow management platform, enabling branch-initiated and standalone transaction flows through microservices-based services.",
+            "Maintained project-level code coverage requirements of at least 80% by developing unit tests for backend services and business workflows.",
         ],
     },
     {
@@ -82,18 +86,14 @@ export const EXPERIENCE: Experience[] = [
         role: "Software Developer Intern",
         period: "Mar 2024 – May 2024",
         location: "Remote",
-        bullets: [
-            "Performed functional testing and reported software defects to support quality assurance processes.",
-        ],
+        bullets: [],
     },
     {
         company: "E-Commint",
         role: "Java Developer Intern",
         period: "Aug 2023 – Oct 2023",
         location: "Remote",
-        bullets: [
-            "Contributed to the development of e-commerce applications using Java and Spring Boot.",
-        ],
+        bullets: [],
     },
 ];
 

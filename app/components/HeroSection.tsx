@@ -52,8 +52,7 @@ export default function HeroSection() {
             <div className="mt-6 flex justify-center">
                 <a
                     href={RESUME_URL}
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    download="Onur-Haktan-Resume.pdf"
                     className="inline-flex items-center gap-1.5 px-4 py-2 text-sm font-medium rounded-full border border-stone-200 dark:border-stone-700 text-stone-600 dark:text-stone-300 bg-white dark:bg-stone-900 hover:border-amber-300 hover:text-amber-600 dark:hover:border-amber-600 dark:hover:text-amber-400 transition-colors duration-200"
                 >
                     Download Resume

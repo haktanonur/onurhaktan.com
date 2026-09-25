@@ -33,16 +33,18 @@ export default function Experience() {
                             </div>
                         </div>
 
-                        <ul className="mt-3 space-y-1.5">
-                            {job.bullets.map((bullet, i) => (
-                                <li
-                                    key={i}
-                                    className="text-sm leading-relaxed text-stone-600 dark:text-stone-400 pl-4 relative before:content-['–'] before:absolute before:left-0 before:text-stone-300 dark:before:text-stone-600"
-                                >
-                                    {bullet}
-                                </li>
-                            ))}
-                        </ul>
+                        {job.bullets.length > 0 && (
+                            <ul className="mt-3 space-y-1.5">
+                                {job.bullets.map((bullet, i) => (
+                                    <li
+                                        key={i}
+                                        className="text-sm leading-relaxed text-stone-600 dark:text-stone-400 pl-4 relative before:content-['–'] before:absolute before:left-0 before:text-stone-300 dark:before:text-stone-600"
+                                    >
+                                        {bullet}
+                                    </li>
+                                ))}
+                            </ul>
+                        )}
                     </div>
                 ))}
             </div>

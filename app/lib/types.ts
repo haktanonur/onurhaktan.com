@@ -4,6 +4,7 @@ export interface Project {
     overview: string;
     link?: string;
     imageUrl?: string;
+    tags?: string[];
 }
 
 export interface SocialLink {
