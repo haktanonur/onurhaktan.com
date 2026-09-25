@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Me from "@/public/me.jpeg";
-import { SITE_OWNER, SITE_TITLE, SOCIAL_LINKS } from "@/app/lib/constants";
+import { SITE_OWNER, SITE_TITLE, SOCIAL_LINKS, RESUME_URL } from "@/app/lib/constants";
 
 export default function HeroSection() {
     return (
@@ -40,12 +40,24 @@ export default function HeroSection() {
 
             <div className="mt-10 max-w-xl mx-auto">
                 <p className="text-[15px] leading-relaxed text-stone-600 dark:text-stone-400">
-                    I&apos;m Onur Haktan, a software engineer specialized in backend and
-                    full-stack development. Currently, I contribute to large-scale projects in the
-                    finance and banking domains. I approach every task with
-                    responsibility, a strong sense of ownership, and a continuous
-                    improvement mindset.
+                    I&apos;m Onur Haktan, a software engineer with 2+ years of experience
+                    modernizing business-critical banking systems &mdash; migrating legacy
+                    platforms to Java/Spring Boot microservices for capital markets and
+                    individual pension systems. I work with event-driven architecture
+                    (Kafka, RabbitMQ), gRPC, and React to deliver transaction-critical
+                    workflows in regulated financial environments.
                 </p>
+            </div>
+
+            <div className="mt-6 flex justify-center">
+                <a
+                    href={RESUME_URL}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1.5 px-4 py-2 text-sm font-medium rounded-full border border-stone-200 dark:border-stone-700 text-stone-600 dark:text-stone-300 bg-white dark:bg-stone-900 hover:border-amber-300 hover:text-amber-600 dark:hover:border-amber-600 dark:hover:text-amber-400 transition-colors duration-200"
+                >
+                    Download Resume
+                </a>
             </div>
         </section>
     );

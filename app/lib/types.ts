@@ -2,8 +2,8 @@ export interface Project {
     _id: string;
     title: string;
     overview: string;
-    link: string;
-    imageUrl: string;
+    link?: string;
+    imageUrl?: string;
 }
 
 export interface SocialLink {
@@ -15,4 +15,13 @@ export interface SocialLink {
 export interface TechSkill {
     name: string;
     color: string;
+}
+
+export interface Experience {
+    company: string;
+    companyVia?: string;
+    role: string;
+    period: string;
+    location: string;
+    bullets: string[];
 }

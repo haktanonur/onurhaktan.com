@@ -27,14 +27,8 @@ export default async function Projects() {
       </h2>
 
       <div className="stagger-children space-y-4">
-        {data.map((project) => (
-          <a
-            key={project._id}
-            href={project.link}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group block p-5 rounded-xl border border-stone-200 dark:border-stone-800 bg-white dark:bg-stone-900 hover:border-stone-300 dark:hover:border-stone-700 transition-all duration-200"
-          >
+        {data.map((project) => {
+          const content = (
             <div className="flex items-start justify-between gap-4">
               <div className="flex-1 min-w-0">
                 <h3 className="text-[15px] font-medium text-stone-900 dark:text-stone-100 group-hover:text-amber-600 dark:group-hover:text-amber-400 transition-colors">
@@ -44,24 +38,45 @@ export default async function Projects() {
                   {project.overview}
                 </p>
               </div>
-              <span className="mt-1 text-stone-300 dark:text-stone-600 group-hover:text-amber-500 dark:group-hover:text-amber-400 transition-colors flex-shrink-0">
-                <svg
-                  className="w-4 h-4"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth={2}
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"
-                  />
-                </svg>
-              </span>
+              {project.link && (
+                <span className="mt-1 text-stone-300 dark:text-stone-600 group-hover:text-amber-500 dark:group-hover:text-amber-400 transition-colors flex-shrink-0">
+                  <svg
+                    className="w-4 h-4"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={2}
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"
+                    />
+                  </svg>
+                </span>
+              )}
             </div>
-          </a>
-        ))}
+          );
+
+          const className =
+            "group block p-5 rounded-xl border border-stone-200 dark:border-stone-800 bg-white dark:bg-stone-900 hover:border-stone-300 dark:hover:border-stone-700 transition-all duration-200";
+
+          return project.link ? (
+            <a
+              key={project._id}
+              href={project.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={className}
+            >
+              {content}
+            </a>
+          ) : (
+            <div key={project._id} className={className}>
+              {content}
+            </div>
+          );
+        })}
       </div>
 
       <div className="mt-8 flex items-center justify-center gap-2">

@@ -1,5 +1,6 @@
 import HeroSection from "./components/HeroSection";
 import TechBadges from "./components/TechBadges";
+import Experience from "./components/Experience";
 import Footer from "./components/Footer";
 import Projects from "./projects/page";
 
@@ -8,6 +9,7 @@ export default function Home() {
     <>
       <HeroSection />
       <TechBadges />
+      <Experience />
       <Projects />
       <Footer />
     </>
