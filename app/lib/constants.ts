@@ -49,6 +49,8 @@ export const METHODOLOGIES: string[] = [
     "SOLID",
     "Design Patterns",
     "Unit Testing",
+    "AI-Assisted Development",
+    "Spec-Driven Development",
     "Agile/Scrum"
 ];
 
